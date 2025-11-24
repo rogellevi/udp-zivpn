@@ -37,7 +37,7 @@ WantedBy=multi-user.target
 EOF
 
 echo -e "Contraseñas UDP de ZIVPN"
-read -p "Ingrese las contraseñas separadas por comas, ejemplo: pass1,pass2 (Presione enter para el valor predeterminado 'chadudp')): " input_config
+read -p "Ingrese las contraseñas separadas por comas, ejemplo: pass1,pass2 (Presione enter para el valor predeterminado 'chad-udp')): " input_config
 
 if [ -n "$input_config" ]; then
     IFS=',' read -r -a config <<< "$input_config"

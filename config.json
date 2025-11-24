@@ -2,9 +2,9 @@
   "listen": ":5667",
    "cert": "/etc/zivpn/zivpn.crt",
    "key": "/etc/zivpn/zivpn.key",
-   "obfs":"zivpn",
+   "obfs":"chad-udp",
    "auth": {
     "mode": "passwords", 
-    "config": ["zi"]
+    "config": ["chad-udp"]
   }
 }
